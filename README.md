@@ -19,7 +19,7 @@
 
 ## Mục tiêu của bài tập lớn
 
-- Vận dụng kiến thức đã học để xây dựng pipeline học máy truyền thống và học sâu nhằm xử lý và phân tích dữ liệu dạng bảng (Adult Census Income)
+- Vận dụng kiến thức đã học để xây dựng pipeline học máy truyền thống và học sâu nhằm xử lý và phân tích các loại tập dữ liệu khác nhau bao gồm dạng bảng, văn bản và hình ảnh.
 - Pipeline bao gồm quy trình xử lý dữ liệu, trích xuất đặc trưng, huấn luyện mô hình và đánh giá kết quả. Qua đó, sinh viên sẽ nắm vững các bước cơ bản trong việc triển khai một hệ thống học máy hiệu quả.
 
 ## Hướng dẫn chạy notebook
@@ -50,15 +50,10 @@
 ## Cấu trúc thư mục dự án
 
 ```
-Adult-Census-Income-Pipeline/
-├── features/      # Xử lý đặc trưng, feature engineering
-├── modules/       # Các module, script chính
-├── notebooks/     # Notebook Jupyter cho phân tích và báo cáo
+ML-Assignment-DNAC1/
+├── features/      # Các file đặc trưng đã được xử lý trích xuất
+├── modules/       # Các module hỗ trợ
+├── notebooks/     # Notebook Jupyter để cấu hình và chạy
 ├── reports/       # Báo cáo, kết quả, hình ảnh
-├── README.md      # Tài liệu này
+└── README.md      # Tài liệu này
 ```
-
-## Báo cáo và notebook Colab
-
-- [Link tới báo cáo PDF](https://link-den-bao-cao.pdf)
-- [Link tới Colab notebook](https://colab.research.google.com/drive/link-den-notebook)
