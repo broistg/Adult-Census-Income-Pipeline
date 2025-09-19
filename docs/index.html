@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Placeholder GitHub Page for ML Assignment: traditional & deep learning pipelines for tabular, text, and image data." />
+  <title>{{REPO_NAME}} — ML Pipelines Assignment</title>
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --muted:#9aa4b2; --accent:#7c3aed; --glass: rgba(255,255,255,0.04);
+      --max-width:1100px;
+      --radius:14px;
+      --mono:ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', 'Courier New', monospace;
+      color-scheme: dark;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;background:linear-gradient(180deg,var(--bg),#071026 80%);color:#e6eef8}
+    .container{max-width:var(--max-width);margin:36px auto;padding:28px}
+
+    header{display:flex;gap:18px;align-items:center}
+    .logo{width:68px;height:68px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#3b82f6);display:grid;place-items:center;font-weight:700;font-size:20px;color:white}
+    h1{margin:0;font-size:26px}
+    .meta{color:var(--muted);font-size:13px}
+
+    .grid{display:grid;grid-template-columns:1fr 340px;gap:20px;margin-top:20px}
+    .card{background:linear-gradient(180deg,var(--card),rgba(11,18,32,0.6));padding:18px;border-radius:var(--radius);box-shadow:0 6px 18px rgba(2,6,23,0.6);}
+
+    .section-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+    .pill{background:var(--glass);padding:6px 10px;border-radius:999px;font-size:12px;color:var(--muted)}
+
+    .readme{line-height:1.6;color:#d9e6f6}
+    code, pre{font-family:var(--mono);background:rgba(255,255,255,0.02);padding:6px;border-radius:8px}
+    pre{padding:12px;overflow:auto}
+
+    nav ul{list-style:none;padding:0;margin:0;display:flex;gap:8px;flex-wrap:wrap}
+    nav a{color:var(--muted);text-decoration:none;font-size:13px;padding:6px 10px;border-radius:8px}
+    nav a:hover{background:var(--glass);color:#fff}
+
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.03);font-size:13px}
+
+    .sidebar .block{margin-bottom:12px}
+    .file-tree{font-family:var(--mono);font-size:13px;color:var(--muted);line-height:1.7}
+
+    .hero-stats{display:flex;gap:12px;margin-top:12px}
+    .stat{background:rgba(255,255,255,0.02);padding:8px 12px;border-radius:12px}
+
+    footer{margin-top:26px;color:var(--muted);font-size:13px;text-align:center}
+
+    /* Responsiveness */
+    @media (max-width:920px){
+      .grid{grid-template-columns:1fr;}
+      .logo{width:56px;height:56px}
+    }
+
+    /* small util */
+    .muted{color:var(--muted)}
+    .mono{font-family:var(--mono)}
+    .btn{background:linear-gradient(90deg,var(--accent),#06b6d4);border:none;padding:8px 12px;border-radius:10px;color:white;cursor:pointer}
+    .btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06)}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">ML</div>
+      <div>
+        <h1>{{REPO_NAME}}</h1>
+        <div class="meta">Assignment — Traditional & Deep Learning pipelines for Tabular, Text, and Image datasets • <span class="muted">{{COURSE_CODE}}</span></div>
+      </div>
+      <div style="margin-left:auto">
+        <nav>
+          <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#pipelines">Pipelines</a></li>
+            <li><a href="#datasets">Datasets</a></li>
+            <li><a href="#usage">Run</a></li>
+            <li><a href="#files">Files</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="grid">
+      <div>
+        <section id="overview" class="card">
+          <div class="section-title">
+            <div>
+              <div class="pill">Overview</div>
+              <h2 style="margin-top:8px">Project Summary</h2>
+            </div>
+            <div class="badge">Status: <strong>Placeholder</strong></div>
+          </div>
+
+          <p class="readme">This repository contains an assignment for the machine learning course <strong>{{COURSE_NAME}}</strong>. The goal is to build end-to-end pipelines for <strong>tabular</strong>, <strong>text</strong>, and <strong>image</strong> datasets using both traditional ML (scikit-learn, XGBoost) and deep learning approaches (PyTorch/TensorFlow). All content below is a placeholder — replace with your project's details.</p>
+
+          <div style="margin-top:14px">
+            <h3>Learning Objectives</h3>
+            <ul>
+              <li>Design reproducible data preprocessing and feature engineering pipelines.</li>
+              <li>Train, evaluate, and compare traditional and deep-learning models.</li>
+              <li>Implement experiment tracking, model serialization, and inference scripts.</li>
+            </ul>
+          </div>
+
+          <div style="margin-top:14px">
+            <h3>Quick links</h3>
+            <div class="hero-stats">
+              <div class="stat"><strong>Dataset</strong><div class="muted">{{DATASET_EXAMPLE}}</div></div>
+              <div class="stat"><strong>Framework</strong><div class="muted">PyTorch / scikit-learn</div></div>
+              <div class="stat"><strong>License</strong><div class="muted">MIT (placeholder)</div></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="pipelines" class="card" style="margin-top:18px">
+          <div class="section-title"><div class="pill">Pipelines</div><h3 style="margin:0">Architecture & Steps</h3></div>
+
+          <div class="readme">
+            <h4>Common Components</h4>
+            <ol>
+              <li>Data ingestion & validation (checksums, schema validation)</li>
+              <li>Preprocessing & feature engineering</li>
+              <li>Model training & hyperparameter tuning</li>
+              <li>Evaluation & visualizations</li>
+              <li>Packaging & deployment (saved model + inference script)</li>
+            </ol>
+
+            <h4 style="margin-top:12px">Per-Modal Pipelines (placeholders)</h4>
+            <h5>Tabular</h5>
+            <p>Steps: imputation → scaling → categorical encoding → feature selection → train/test split → modeling (LinearModel / XGBoost / MLP)</p>
+
+            <h5>Text</h5>
+            <p>Steps: cleaning → tokenization → vocabulary/embeddings → sequence batching → models (TF-IDF + classical classifiers, Transformer/GRU-based networks)</p>
+
+            <h5>Image</h5>
+            <p>Steps: resize/normalize → augmentation → backbone (ResNet / EfficientNet) → fine-tune / train from scratch → evaluation (accuracy, confusion matrix)</p>
+          </div>
+        </section>
+
+        <section id="datasets" class="card" style="margin-top:18px">
+          <div class="section-title"><div class="pill">Datasets</div><h3 style="margin:0">Placeholder Datasets</h3></div>
+          <div class="readme">
+            <p><strong>Tabular:</strong> {{TABULAR_DATASET_NAME}} — description placeholder.</p>
+            <p><strong>Text:</strong> {{TEXT_DATASET_NAME}} — description placeholder.</p>
+            <p><strong>Images:</strong> {{IMAGE_DATASET_NAME}} — description placeholder.</p>
+
+            <h4>Data storage</h4>
+            <p>Put raw files under <code>/data/raw/</code>. Processed/intermediate files go to <code>/data/processed/</code>. Use checksums and a small README per dataset describing file formats.</p>
+          </div>
+        </section>
+
+        <section id="usage" class="card" style="margin-top:18px">
+          <div class="section-title"><div class="pill">Run & Reproduce</div><h3 style="margin:0">How to run (placeholder)</h3></div>
+          <div class="readme">
+            <h4>Requirements</h4>
+            <pre>Python 3.10+
+pip install -r requirements.txt
+# or use conda environment: conda env create -f environment.yml</pre>
+
+            <h4>Typical commands</h4>
+            <pre># Prepare data
+python src/prepare_data.py --input data/raw --out data/processed
+
+# Train a tabular model
+python src/train_tabular.py --config configs/tabular.yaml
+
+# Run evaluation
+python src/eval.py --exp runs/exp_001
+</pre>
+
+            <p class="muted">Replace these commands with the concrete scripts you implement.</p>
+          </div>
+        </section>
+
+        <section id="experiments" class="card" style="margin-top:18px">
+          <div class="section-title"><div class="pill">Experiments</div><h3 style="margin:0">Experiment Tracking (placeholder)</h3></div>
+          <div class="readme">
+            <p>We recommend using <strong>MLflow</strong> or <strong>Weights & Biases</strong> to track runs, metrics, and artifacts. Example fields to record:</p>
+            <ul>
+              <li>run_id, timestamp, git_commit</li>
+              <li>hyperparameters</li>
+              <li>metrics (accuracy, f1, auc)</li>
+              <li>artifacts (saved model, confusion matrix, plots)</li>
+            </ul>
+          </div>
+        </section>
+
+      </div>
+
+      <aside class="sidebar">
+        <div class="card">
+          <div class="block">
+            <div class="section-title"><div class="pill">Repository</div><h4 style="margin:0">Files & Structure</h4></div>
+            <div class="file-tree mono">
+<pre>
+/ (root)
+├─ README.md              # replace with project README
+├─ index.html              # this file (GitHub Page)
+├─ requirements.txt
+├─ environment.yml
+├─ data/
+│  ├─ raw/
+│  └─ processed/
+├─ src/
+│  ├─ prepare_data.py
+│  ├─ train_tabular.py
+│  ├─ train_text.py
+│  ├─ train_image.py
+│  └─ eval.py
+├─ configs/
+│  ├─ tabular.yaml
+│  ├─ text.yaml
+│  └─ image.yaml
+└─ notebooks/
+   └─ exploration.ipynb
+</pre>
+            </div>
+          </div>
+
+          <div class="block">
+            <div class="section-title"><div class="pill">Author</div><h4 style="margin:0">{{YOUR_NAME}}</h4></div>
+            <p class="muted">Contact / student id: <code>{{EMAIL_OR_ID}}</code></p>
+            <div style="margin-top:8px"><button class="btn ghost">View on GitHub</button></div>
+          </div>
+
+          <div class="block">
+            <div class="section-title"><div class="pill">Badges</div><h4 style="margin:0">Status</h4></div>
+            <div style="display:flex;gap:8px;flex-wrap:wrap">
+              <div class="badge">build: passing</div>
+              <div class="badge">tests: none</div>
+              <div class="badge">license: MIT</div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h4 style="margin:0">Quick Notes</h4>
+          <p class="muted" style="margin-top:8px">Replace placeholders ({{REPO_NAME}}, {{YOUR_NAME}}, etc.) with real values. Commit & push to activate on GitHub Pages (rename branch to gh-pages or enable via Settings).</p>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <div class="muted">This page is a template generated as a starting point. Update content, add screenshots and model results in <code>/docs/</code> or in the README.</div>
+    </footer>
+  </div>
+
+  <script>
+    // Small script to replace placeholder tokens from query params (optional)
+    (function(){
+      const params = new URLSearchParams(location.search);
+      for(const [k,v] of params.entries()){
+        document.body.innerHTML = document.body.innerHTML.replace(new RegExp('\\{\\{' + k + '\\}\\}','g'), v);
+      }
+    })();
+  </script>
+</body>
+</html>

@@ -57,3 +57,9 @@ ML-Assignment-DNAC1/
 ├── reports/       # Báo cáo, kết quả, hình ảnh
 └── README.md      # Tài liệu này
 ```
+
+## Báo cáo và notebook Colab
+
+- Notebook BTL1 (Adult Census Income):
+  - Pipeline truyền thống: {{ badge notebooks/BTL1_traditional.ipynb }}
+  - Pipeline truyền thống: {{ badge notebooks/BTL1_deep_learning.ipynb }}
