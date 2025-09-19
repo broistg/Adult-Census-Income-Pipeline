@@ -61,5 +61,5 @@ ML-Assignment-DNAC1/
 ## Báo cáo và notebook Colab
 
 - Notebook BTL1 (Adult Census Income):
-  - Pipeline truyền thống: {{ badge notebooks/BTL1_traditional.ipynb }}
-  - Pipeline truyền thống: {{ badge notebooks/BTL1_deep_learning.ipynb }}
+  - Pipeline truyền thống: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/broistg/ML-Assignment-DNAC1/blob/main/notebooks/BTL1_traditional.ipynb)
+  - Pipeline học sâu: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/broistg/ML-Assignment-DNAC1/blob/main/notebooks/BTL1_deep_learning.ipynb)
