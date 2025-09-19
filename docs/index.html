@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Placeholder GitHub Page for ML Assignment: traditional & deep learning pipelines for tabular, text, and image data." />
-  <title>{{REPO_NAME}} — ML Pipelines Assignment</title>
+  <meta name="description" content="GitHub Page for ML Assignment: traditional & deep learning pipelines for tabular, text, and image data." />
+  <title>ML-Assignment-DNAC1 — ML Pipelines Assignment</title>
   <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
   <style>
     :root{
@@ -65,8 +65,8 @@
     <header>
       <div class="logo">ML</div>
       <div>
-        <h1>{{REPO_NAME}}</h1>
-        <div class="meta">Assignment — Traditional & Deep Learning pipelines for Tabular, Text, and Image datasets • <span class="muted">{{COURSE_CODE}}</span></div>
+        <h1>ML-Assignment-DNAC1</h1>
+        <div class="meta">Assignment — Traditional & Deep Learning pipelines for Tabular, Text, and Image datasets • <span class="muted">CO3117</span></div>
       </div>
       <div style="margin-left:auto">
         <nav>
@@ -75,7 +75,8 @@
             <li><a href="#pipelines">Pipelines</a></li>
             <li><a href="#datasets">Datasets</a></li>
             <li><a href="#usage">Run</a></li>
-            <li><a href="#files">Files</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#experiment-result">Comparison</a></li>
           </ul>
         </nav>
       </div>
@@ -89,27 +90,18 @@
               <div class="pill">Overview</div>
               <h2 style="margin-top:8px">Project Summary</h2>
             </div>
-            <div class="badge">Status: <strong>Placeholder</strong></div>
+            <div class="badge">Status: <strong>In Progress</strong></div>
           </div>
 
-          <p class="readme">This repository contains an assignment for the machine learning course <strong>{{COURSE_NAME}}</strong>. The goal is to build end-to-end pipelines for <strong>tabular</strong>, <strong>text</strong>, and <strong>image</strong> datasets using both traditional ML (scikit-learn, XGBoost) and deep learning approaches (PyTorch/TensorFlow). All content below is a placeholder — replace with your project's details.</p>
+          <p class="readme">This repository contains an assignment for the <strong>Machine Learning</strong> course. The goal is to build end-to-end pipelines for <strong>tabular</strong>, <strong>text</strong>, and <strong>image</strong> datasets using both traditional ML and deep learning approaches.</p>
 
           <div style="margin-top:14px">
             <h3>Learning Objectives</h3>
             <ul>
               <li>Design reproducible data preprocessing and feature engineering pipelines.</li>
               <li>Train, evaluate, and compare traditional and deep-learning models.</li>
-              <li>Implement experiment tracking, model serialization, and inference scripts.</li>
+              <li>Work with tabular, text, and image datasets.</li>
             </ul>
-          </div>
-
-          <div style="margin-top:14px">
-            <h3>Quick links</h3>
-            <div class="hero-stats">
-              <div class="stat"><strong>Dataset</strong><div class="muted">{{DATASET_EXAMPLE}}</div></div>
-              <div class="stat"><strong>Framework</strong><div class="muted">PyTorch / scikit-learn</div></div>
-              <div class="stat"><strong>License</strong><div class="muted">MIT (placeholder)</div></div>
-            </div>
           </div>
         </section>
 
@@ -119,70 +111,106 @@
           <div class="readme">
             <h4>Common Components</h4>
             <ol>
-              <li>Data ingestion & validation (checksums, schema validation)</li>
+              <li>Exploratory Data Analysis (EDA)</li>
               <li>Preprocessing & feature engineering</li>
               <li>Model training & hyperparameter tuning</li>
               <li>Evaluation & visualizations</li>
-              <li>Packaging & deployment (saved model + inference script)</li>
             </ol>
 
-            <h4 style="margin-top:12px">Per-Modal Pipelines (placeholders)</h4>
+            <h4 style="margin-top:12px">Per-Modal Pipelines</h4>
             <h5>Tabular</h5>
-            <p>Steps: imputation → scaling → categorical encoding → feature selection → train/test split → modeling (LinearModel / XGBoost / MLP)</p>
+            <p>Steps: EDA → imputation → scaling → categorical encoding → feature selection → train/test split → modeling → training → testing</p>
 
             <h5>Text</h5>
-            <p>Steps: cleaning → tokenization → vocabulary/embeddings → sequence batching → models (TF-IDF + classical classifiers, Transformer/GRU-based networks)</p>
+            <p>To Be Added.</p>
 
             <h5>Image</h5>
-            <p>Steps: resize/normalize → augmentation → backbone (ResNet / EfficientNet) → fine-tune / train from scratch → evaluation (accuracy, confusion matrix)</p>
+            <p>To Be Added.</p>
           </div>
         </section>
 
         <section id="datasets" class="card" style="margin-top:18px">
-          <div class="section-title"><div class="pill">Datasets</div><h3 style="margin:0">Placeholder Datasets</h3></div>
+          <div class="section-title"><div class="pill">Datasets</div><h3 style="margin:0">Datasets</h3></div>
           <div class="readme">
-            <p><strong>Tabular:</strong> {{TABULAR_DATASET_NAME}} — description placeholder.</p>
-            <p><strong>Text:</strong> {{TEXT_DATASET_NAME}} — description placeholder.</p>
-            <p><strong>Images:</strong> {{IMAGE_DATASET_NAME}} — description placeholder.</p>
-
-            <h4>Data storage</h4>
-            <p>Put raw files under <code>/data/raw/</code>. Processed/intermediate files go to <code>/data/processed/</code>. Use checksums and a small README per dataset describing file formats.</p>
+            <p><strong>Tabular:</strong> Adult Census Income — Predict whether income exceeds $50K/yr based on census data.
+                <br>
+                <a href="https://archive.ics.uci.edu/ml/datasets/adult" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:underline;font-size:13px;">
+                    [UCI Dataset Link]
+                </a>
+            </p>
+            <p><strong>Text:</strong> To Be Added.</p>
+            <p><strong>Images:</strong> To Be Added.</p>
           </div>
         </section>
 
         <section id="usage" class="card" style="margin-top:18px">
-          <div class="section-title"><div class="pill">Run & Reproduce</div><h3 style="margin:0">How to run (placeholder)</h3></div>
+          <div class="section-title"><div class="pill">Run & Reproduce</div><h3 style="margin:0">How to run</h3></div>
           <div class="readme">
             <h4>Requirements</h4>
-            <pre>Python 3.10+
-pip install -r requirements.txt
-# or use conda environment: conda env create -f environment.yml</pre>
+            <ul>
+              <li>Python 3.12+</li>
+              <li>Jupyter Notebook or Google Colab</li>
+            </ul>
 
-            <h4>Typical commands</h4>
-            <pre># Prepare data
-python src/prepare_data.py --input data/raw --out data/processed
-
-# Train a tabular model
-python src/train_tabular.py --config configs/tabular.yaml
-
-# Run evaluation
-python src/eval.py --exp runs/exp_001
+            <h4>Run notebook using Google Colab:</h4>
+            <ol>
+              <li>Open the notebook in Google Colab.</li>
+              <li>Select <strong>Runtime</strong> → <strong>Run all</strong>.</li>
+              <li>The entire process (installing libraries, loading data, training, evaluating) will run automatically.</li>
+            </ol>
+            <h4>Run notebook locally:</h4>
+            <ol>
+              <li>Create a virtual environment (recommended):
+                <pre>python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
 </pre>
-
-            <p class="muted">Replace these commands with the concrete scripts you implement.</p>
+              </li>
+              <li>Install dependencies:
+                <pre>pip install -r requirements.txt
+</pre>
+              </li>
+              <li>Run notebook using Jupyter:
+                <pre>cd notebooks
+jupyter notebook notebook_name.ipynb
+</pre>
+              </li>
+            </ol>
           </div>
         </section>
 
-        <section id="experiments" class="card" style="margin-top:18px">
-          <div class="section-title"><div class="pill">Experiments</div><h3 style="margin:0">Experiment Tracking (placeholder)</h3></div>
+        <section id="links" class="card" style="margin-top:18px">
+          <div class="section-title"><div class="pill">Links</div><h3 style="margin:0">Links to Resources</h3></div>
           <div class="readme">
-            <p>We recommend using <strong>MLflow</strong> or <strong>Weights & Biases</strong> to track runs, metrics, and artifacts. Example fields to record:</p>
+            <h4>Tabular Dataset Notebooks (Adult Census Income):</h4>
             <ul>
-              <li>run_id, timestamp, git_commit</li>
-              <li>hyperparameters</li>
-              <li>metrics (accuracy, f1, auc)</li>
-              <li>artifacts (saved model, confusion matrix, plots)</li>
+            <li>
+                Traditional Pipeline:
+                <a href="https://colab.research.google.com/github/broistg/ML-Assignment-DNAC1/blob/main/notebooks/BTL1_traditional.ipynb" target="_blank" rel="noopener">
+                <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" style="vertical-align:middle;">
+                </a>
+            </li>
+            <li>
+                Deep Learning Pipeline:
+                <a href="https://colab.research.google.com/github/broistg/ML-Assignment-DNAC1/blob/main/notebooks/BTL1_deep_learning.ipynb" target="_blank" rel="noopener">
+                <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" style="vertical-align:middle;">
+                </a>
+            </li>
             </ul>
+          </div>
+        </section>
+
+        <section id="experiment-result" class="card" style="margin-top:18px">
+          <div class="section-title">
+            <div class="pill">Experiment Result</div>
+            <h3 style="margin:0">Model Comparison</h3>
+          </div>
+          <div class="readme">
+            <p>The following figure summarizes the performance comparison between different models used in our pipeline:</p>
+            <div style="display:flex;justify-content:center;align-items:center;margin:24px 0;">
+              <img src="compare_model.png" alt="Model Comparison" style="max-width:100%;height:auto;border-radius:12px;box-shadow:0 4px 18px rgba(2,6,23,0.18);border:1px solid var(--glass);background:var(--card);padding:12px;">
+            </div>
+            <p style="text-align:center;color:var(--muted);font-size:14px;">Figure 1: SVM with 95% PCA performs the best in Adult Census Income dataset.</p>
           </div>
         </section>
 
@@ -194,67 +222,109 @@ python src/eval.py --exp runs/exp_001
             <div class="section-title"><div class="pill">Repository</div><h4 style="margin:0">Files & Structure</h4></div>
             <div class="file-tree mono">
 <pre>
-/ (root)
-├─ README.md              # replace with project README
-├─ index.html              # this file (GitHub Page)
-├─ requirements.txt
-├─ environment.yml
-├─ data/
-│  ├─ raw/
-│  └─ processed/
-├─ src/
-│  ├─ prepare_data.py
-│  ├─ train_tabular.py
-│  ├─ train_text.py
-│  ├─ train_image.py
-│  └─ eval.py
-├─ configs/
-│  ├─ tabular.yaml
-│  ├─ text.yaml
-│  └─ image.yaml
-└─ notebooks/
-   └─ exploration.ipynb
+ML-Assignment-DNAC1/
+├─ docs/            # This Github Page
+    └─ index.html   # This file
+├─ features/        # Feature extraction files
+├─ modules/         # Supporting modules
+├─ notebooks/       # Jupyter notebooks for configuration and experimentation
+├─ reports/         # Reports, results, and visualizations
+├─ requirements.txt # Library requirements
+└─ README.md        # This project's README
 </pre>
             </div>
           </div>
 
           <div class="block">
-            <div class="section-title"><div class="pill">Author</div><h4 style="margin:0">{{YOUR_NAME}}</h4></div>
-            <p class="muted">Contact / student id: <code>{{EMAIL_OR_ID}}</code></p>
-            <div style="margin-top:8px"><button class="btn ghost">View on GitHub</button></div>
-          </div>
-
-          <div class="block">
-            <div class="section-title"><div class="pill">Badges</div><h4 style="margin:0">Status</h4></div>
-            <div style="display:flex;gap:8px;flex-wrap:wrap">
-              <div class="badge">build: passing</div>
-              <div class="badge">tests: none</div>
-              <div class="badge">license: MIT</div>
+            <div class="section-title"><div class="pill">Author</div><h4 style="margin:0">DNAC1 Team</h4></div>
+            <div class="section-title"><div class="pill">Team Members</div></div>
+            <table style="width:100%;font-size:14px;border-collapse:collapse;margin-top:8px">
+              <thead>
+                <tr style="background:var(--glass)">
+                  <th style="text-align:left;padding:6px">Name</th>
+                  <th style="text-align:left;padding:6px">Student ID</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="padding:6px">Cao Huu Thien Hoang</td>
+                  <td style="padding:6px">2311030</td>
+                </tr>
+                <tr>
+                  <td style="padding:6px">Le Tien Dat</td>
+                  <td style="padding:6px">2310653</td>
+                </tr>
+                <tr>
+                  <td style="padding:6px">Tran Vinh Dung</td>
+                  <td style="padding:6px">2310574</td>
+                </tr>
+              </tbody>
+            </table>
+            <div style="margin-top:8px">
+              <a href="https://github.com/broistg/ML-Assignment-DNAC1" target="_blank" rel="noopener">
+                <button class="btn ghost">View on GitHub</button>
+              </a>
             </div>
           </div>
-
         </div>
 
         <div class="card" style="margin-top:12px">
           <h4 style="margin:0">Quick Notes</h4>
-          <p class="muted" style="margin-top:8px">Replace placeholders ({{REPO_NAME}}, {{YOUR_NAME}}, etc.) with real values. Commit & push to activate on GitHub Pages (rename branch to gh-pages or enable via Settings).</p>
+          <p class="muted" style="margin-top:8px">This project is still a work in progress.</p>
         </div>
       </aside>
     </main>
 
     <footer>
-      <div class="muted">This page is a template generated as a starting point. Update content, add screenshots and model results in <code>/docs/</code> or in the README.</div>
+      <div class="muted"></div>
     </footer>
   </div>
-
-  <script>
-    // Small script to replace placeholder tokens from query params (optional)
-    (function(){
-      const params = new URLSearchParams(location.search);
-      for(const [k,v] of params.entries()){
-        document.body.innerHTML = document.body.innerHTML.replace(new RegExp('\\{\\{' + k + '\\}\\}','g'), v);
-      }
-    })();
-  </script>
 </body>
+<script>
+// Add copy buttons to all <pre> blocks
+document.querySelectorAll('pre').forEach(function(pre) {
+  // Exclude <pre> blocks inside .file-tree
+  var parent = pre.parentElement;
+  var isFileTree = false;
+  while (parent) {
+    if (parent.classList && parent.classList.contains('file-tree')) {
+      isFileTree = true;
+      break;
+    }
+    parent = parent.parentElement;
+  }
+  if (isFileTree) return;
+
+  // Create the button
+  var btn = document.createElement('button');
+  btn.textContent = 'Copy';
+  btn.className = 'copy-btn';
+  btn.style.position = 'absolute';
+  btn.style.right = '12px';
+  btn.style.top = '12px';
+  btn.style.zIndex = '2';
+  btn.style.background = 'var(--accent)';
+  btn.style.color = 'white';
+  btn.style.border = 'none';
+  btn.style.padding = '4px 10px';
+  btn.style.borderRadius = '8px';
+  btn.style.cursor = 'pointer';
+  btn.style.fontSize = '13px';
+
+  // Create a wrapper for positioning
+  var wrapper = document.createElement('div');
+  wrapper.style.position = 'relative';
+  pre.parentNode.insertBefore(wrapper, pre);
+  wrapper.appendChild(pre);
+  wrapper.appendChild(btn);
+
+  btn.addEventListener('click', function() {
+    var text = pre.innerText;
+    navigator.clipboard.writeText(text).then(function() {
+      btn.textContent = 'Copied!';
+      setTimeout(function() { btn.textContent = 'Copy'; }, 1200);
+    });
+  });
+});
+</script>
 </html>

@@ -7,15 +7,15 @@
 ## Giảng viên hướng dẫn (GVHD)
 
 - Họ tên: TS. Lê Thành Sách
-- Email: ltsach@hcmut.edu.vn
+- Email: <ltsach@hcmut.edu.vn>
 
 ## Thông tin các thành viên nhóm
 
 | Họ tên              | Mã số sinh viên | Email                          |
 | ------------------- | --------------- | ------------------------------ |
-| Cao Hữu Thiên Hoàng | 2311030         | hoang.cao2510@hcmut.edu.vn     |
-| Lê Tiến Đạt         | 2310653         | dat.le2005@hcmut.edu.vn        |
-| Trần Vĩnh Dũng      | 2310574         | dung.tranvinh2005@hcmut.edu.vn |
+| Cao Hữu Thiên Hoàng | 2311030         | <hoang.cao2510@hcmut.edu.vn>     |
+| Lê Tiến Đạt         | 2310653         | <dat.le2005@hcmut.edu.vn>        |
+| Trần Vĩnh Dũng      | 2310574         | <dung.tranvinh2005@hcmut.edu.vn> |
 
 ## Mục tiêu của bài tập lớn
 
@@ -26,36 +26,58 @@
 
 1. **Yêu cầu môi trường:**
 
-   - Google Colab (khuyến nghị) hoặc môi trường Python 3.9+
+   - Google Colab (khuyến nghị) hoặc môi trường Python 3.12+
    - Các thư viện cần thiết sẽ được cài tự động trong notebook:
      - scikit-learn
      - pandas
      - numpy
+     - scipy
      - plotly
-     - matplotlib
      - seaborn
      - torch, torchvision
-     - pytorch-tabnet
      - wget
 
 2. **Cách tải dữ liệu:**
-   - Dữ liệu Adult Census Income được tải tự động trong notebook từ UCI Machine Learning Repository:
+   - Dữ liệu Adult Census Income của BTL 1 được tải tự động trong notebook từ UCI Machine Learning Repository:
      - adult.data (dùng để chia thành Train / Validation / Test)
      - Link gốc: [Adult Census Income](https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data)
-3. **Chạy notebook:**
-   - Mở notebook trên Google Colab.
-   - Chọn **Runtime** → **Run all**.
-   - Toàn bộ quy trình (cài thư viện, tải dữ liệu, huấn luyện, đánh giá) sẽ chạy tự động.
+3. **Chạy notebook bằng Google Colab:**
+   1. Mở notebook trên Google Colab.
+   2. Chọn **Runtime** → **Run all**.
+   3. Toàn bộ quy trình (cài thư viện, tải dữ liệu, huấn luyện, đánh giá) sẽ chạy tự động.
+4. **Chạy notebook local:**
+   1. Tạo virtual environment (khuyến nghị):
+
+      ```bash
+      python -m venv venv
+      source venv/bin/activate   # Linux/Mac
+      venv\Scripts\activate      # Windows
+      ```
+
+   2. Cài đặt dependencies:
+
+      ```bash
+      pip install -r requirements.txt
+      ```
+
+   3. Chạy notebook bằng Jupyter:
+
+      ```bash
+      cd notebooks
+      jupyter notebook notebook_name.ipynb
+      ```
 
 ## Cấu trúc thư mục dự án
 
-```
+```text
 ML-Assignment-DNAC1/
-├── features/      # Các file đặc trưng đã được xử lý trích xuất
-├── modules/       # Các module hỗ trợ
-├── notebooks/     # Notebook Jupyter để cấu hình và chạy
-├── reports/       # Báo cáo, kết quả, hình ảnh
-└── README.md      # Tài liệu này
+├── docs/            # Thông tin Github Page
+├── features/        # Các file đặc trưng được trích xuất
+├── modules/         # Các module hỗ trợ
+├── notebooks/       # Notebook Jupyter để cấu hình và chạy
+├── reports/         # Báo cáo, kết quả, hình ảnh
+├── requirements.txt # Yêu cầu về thư viện
+└── README.md        # Tài liệu này
 ```
 
 ## Báo cáo và notebook Colab
